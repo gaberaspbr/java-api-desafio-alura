@@ -1,2 +1,8 @@
-package br.com.gabera.frasesapi.dto;public class FrasesDTO {
+package br.com.gabera.frasesapi.dto;
+
+public record FrasesDTO(Long id,
+                        String frase,
+                        String personagem,
+                        String titulo,
+                        String poster) {
 }
